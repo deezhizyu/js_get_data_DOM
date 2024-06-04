@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".population"),r=document.querySelector(".average-population"),t=document.querySelector(".total-population"),o=0,n=0,l=!0,a=!1,i=void 0;try{for(var u,c=e[Symbol.iterator]();!(l=(u=c.next()).done);l=!0){var p=u.value.innerHTML.split(",").join("");o+=parseInt(p),n++}}catch(e){a=!0,i=e}finally{try{l||null==c.return||c.return()}finally{if(a)throw i}}var y=Math.floor(o/n);r.innerHTML=y.toLocaleString("en-US"),t.innerHTML=o.toLocaleString("en-US");
+//# sourceMappingURL=index.8a701cff.js.map
